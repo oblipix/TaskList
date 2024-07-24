@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parisienne&family=Quicksand:wght@300..700&display=swap');
+
+
+
+:root {
+--primary-color: #cae2e1;
+--secundary-color: #afcdd0;
+--terciary-color: #a5195fdd;
+}
+
+
+*{
+box-sizing: border-box;
+outline: 0;
+
+}
+
+
+body{
+    color: var(--terciary-color);
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', 'quicksand';
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
+.container {
+
+    
+max-width: 640px;
+margin-left: 380px;
+margin-top: 20px;
+background: #ffff;
+padding: 20px;
+font-family: 'quicksand';
+box-shadow: -10px -10px 20px var(--secundary-color);
+
+
+}
+
+form input, form lavel, form  button {
+    
+   display: block;
+   width: 100%;
+   margin-bottom: 16px;
+    
+}
+
+ input{
+   
+    background: var(--primary-color);
+    color: var(--terciary-color);
+    font-size: 18px;
+    width: 370px;
+    height: 36px;
+    padding: 8px;
+    border:none;
+ 
+}
+
+
+
+button {
+left: 400px;
+  font-size: 15px;
+  font-family: 'quicksand';
+    background-color: var(--secundary-color);
+    color: #ffff;
+    border: none;
+    border-radius: 220px;
+          cursor: pointer;     
+}
+
+
+button:hover {
+    color: var(--secundary-color);
+    background-color: var(--secundary-color);
+    border-radius: 0px;
+    border-radius: 220px;
+    cursor: pointer; 
+   
+}
+
+
+
+li{
+    font-size: 20px;
+    padding: 30px;
+}
+
+h1 {
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-family: 'parisienne';
+   color: var(--terciary-color);
+    }
+    
+
+    
+        
+
+
+
+    b{
+color:var(--secundary-color);
+
+    }
+
+
+
+ 
